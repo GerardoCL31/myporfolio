@@ -1,53 +1,24 @@
-*{
-    background-color: rgb(33, 32, 32);
-    color: rgb(146, 176, 101);
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  /* Título */
-  #Titulo {
+#Titulo{
     text-align: center;
-    font-size: 60px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin-top: 20px;
-  }
-  
-  /* Contenedor principal */
-  .contenedor {
+    font-size:60px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+*{
+    background-color: rgb(33, 32, 32)
+}
+*{
+    color: rgb(146, 176, 101);
+}
+
+
+.contenedor{
     text-align: center;
     border: 5px solid greenyellow;
     border-radius: 10px;
-    padding: 20px;
-    margin: 20px;
-  }
-  
-  /* Sección de redes sociales */
-  #redes {
+}   
+#redes{
     color: brown;
-  }
-  
-  /* Estilos para pantallas móviles */
-  @media (max-width: 768px) {
-    #Titulo {
-      font-size: 40px; /* Ajuste de tamaño de fuente */
-    }
-    
-    .contenedor {
-      padding: 10px;
-      margin: 10px;
-    }
-  }
-  
-  /* Estilos para pantallas extra pequeñas (como móviles en orientación vertical) */
-  @media (max-width: 480px) {
-    #Titulo {
-      font-size: 30px; /* Tamaño de fuente aún más pequeño */
-    }
-    
-    .contenedor {
-      padding: 8px;
-      border-width: 3px; /* Bordes más delgados en pantallas pequeñas */
-    }
-  }
+
+
+}
